@@ -34,7 +34,7 @@ class Ecuacion(a: Float, b: Float, c: Float) {
                 var pimag: Float = 0.0f
                 preal = -_b / (2*_a)
                 pimag = sqrt(abs(discriminante())) / (2 * _a)
-                s = "x1 = " + preal + " + " + pimag + "i,"+" x2 = "+preal+" - "+pimag+"i"
+                s = "x1 = " + preal + " + " + pimag + "I,"+" x2 = "+preal+" - "+pimag+"i"
             }
         }
         return s
